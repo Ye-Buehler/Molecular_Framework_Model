@@ -7,6 +7,7 @@ Thank you for your interest in this repo complementing the "[Molecular Framework
 ### Install conda environment
 
 The requirements for the environment are given in the framework.yml file
+
 <Br/>`conda env create -f framework.yml`
 
 Specific packages used are also listed below:
@@ -27,15 +28,12 @@ Specific packages used are also listed below:
 *example1.smi* and *example2.smi* files in folder *example* are provided for the Molecular Framework Model demonstration.
 
   - The model can be executed by using the following command and the python script *Molecular_Framework_Model.py*
+  
 <Br/>`python Molecular_Framework_Model.py example1.smi`
 
   - The model can also be carried out by appying the script *Molecular_Framework_Model.ipynb* in the Jupyter Notebook
  
-<Br/>The two approaches above will both yield two .pickle files containining the framework for each molecule in the sample pool (you can find these data
-
-in folder *example/results_of_each_example*) and the final framework dataset after combining the duplicates and sorting their frequency (you can find
-
-these final framework datasets for two examples in folder *results_merging/results/* for further steps of merging, etc.). 
+<Br/>The two approaches above will both yield two .pickle files containining the framework for each molecule in the sample pool (you can find these data in folder *example/results_of_each_example*) and the final framework dataset after combining the duplicates and sorting their frequency (you can find these final framework datasets for two examples in folder *results_merging/results/* for further steps of merging, etc.). 
 
 A .html file elaborating the final framework results can be also obtained for each approach.
 
@@ -44,7 +42,6 @@ A .html file elaborating the final framework results can be also obtained for ea
 For very large databases, we usually have to split the databases or even using high performance computer clusters to treat them parallely. 
 
 Therefore, an efficient script for merging all the results for each sub-databases is necessary. In folder *results_merging* you can see the file down below which will realize this merging process.
-
 <Br/>`Molecular_Framework_Results_Merge.ipynb`
 
 <Br/>Then all or top 10000 sorted frameworks for the entire database can be displayed in a .html file. 
