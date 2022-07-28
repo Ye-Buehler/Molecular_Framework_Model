@@ -61,7 +61,7 @@ To contribute with code to the project, follow these steps:
 4. Push to the remote branch: `git push`
 5. Create the pull request.
 
-## Contributors
+### Contributors
 
 * [@Ye-Buehler](https://github.com/Ye-Buehler)
 
