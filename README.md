@@ -44,7 +44,7 @@ Therefore, an efficient script for merging all the results for each sub-database
 
 In folder *results_merging* you can see the file *Molecular_Framework_Results_Merge.ipynb* which will realize this merging process.
 
-Then all frameworks or the top 10000 sorted frameworks for the entire database can be displayed in a .html file. 
+Then all sorted frameworks or the top 10000 sorted frameworks for the entire database can be displayed in a .html file. 
 
 You can also save the SMILES of frameworks on your own or utilize the *results_merged.pickle* file, and then visualize them with software like ChemDraw or Marvin.*top-10000-results-with-ROMol.html* in the same folder shows the framework dataset built from the two combined examples.
 
