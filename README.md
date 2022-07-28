@@ -3,7 +3,7 @@
 Thank you for your interest in this repo complementing the "[Molecular Framework Analysis of the Drug-like Chemical Space](https:)" publication.
 
 ## Requirements
-
+### You have installed anaconda or miniconda with python 3.6 - 3.9
 ### Install conda environment
 
 The requirements for the environment are given in the framework.yml file:
@@ -14,7 +14,6 @@ Specific packages used are also listed below:
   - numpy >= 1.21.2
   - pandas >= 1.4.1
   - pickleshare >= 0.7.5
-  - python >= 3.9.7
   - rdkit >= 2021.09.4
   - tqdm >= 4.63.0
   
