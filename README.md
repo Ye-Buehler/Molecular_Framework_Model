@@ -24,12 +24,15 @@ Specific packages used are also listed below:
 ## Quickstart
 
 ### Example
+
 *example1.smi* and *example2.smi* files in folder *example* are provided for the Molecular Framework Model demonstration.
-The model can be executed by using the following command and the python script *Molecular_Framework_Model.py*:
+
+  - The model can be executed by using the following command and the python script *Molecular_Framework_Model.py*:
 `python Molecular_Framework_Model.py example1.smi`
+  - The model can also be carried out by appying the script *Molecular_Framework_Model.ipynbin* the Jupyter Notebook
+ 
+The two approaches above will both yield two .pickle files containining the framework for each molecule in the sample pool and the final framework dataset after combining the duplicates and sorting their frequency. A .html file elaborating the final framework results can be also obtained for each approach.
 
-
-Molecular_Framework_Model.ipynb
 ### Results Merging
  
 ## Contributing
