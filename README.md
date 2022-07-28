@@ -42,9 +42,7 @@ For very large databases, we usually have to split the databases or even using h
 
 Therefore, an efficient script for merging all the results for each sub-databases is necessary. 
 
-In folder *results_merging* you can see the file down below which will realize this merging process.
-
-`Molecular_Framework_Results_Merge.ipynb`
+In folder *results_merging* you can see the file *Molecular_Framework_Results_Merge.ipynb* which will realize this merging process.
 
 Then all or top 10000 sorted frameworks for the entire database can be displayed in a .html file. 
 
