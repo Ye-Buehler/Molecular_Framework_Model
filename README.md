@@ -28,7 +28,7 @@ Specific packages used are also listed below:
 
   - The model can be executed by using the following command and the python script *Molecular_Framework_Model.py*
 
-  `python Molecular_Framework_Model.py example1.smi`
+    `python Molecular_Framework_Model.py example1.smi`
 
   - The model can also be carried out by appying the script *Molecular_Framework_Model.ipynb* in the Jupyter Notebook
 
