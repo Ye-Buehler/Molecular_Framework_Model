@@ -24,29 +24,29 @@ Specific packages used are also listed below:
 
 ### Example
 
-*example1.smi* and *example2.smi* files in folder *example* are provided for the Molecular Framework Model demonstration.
+*example1.smi* and *example2.smi* files in the folder *example* are provided for the Molecular Framework Model demonstration.
 
   - The model can be executed by using the following command and the python script *Molecular_Framework_Model.py*
 
     `python Molecular_Framework_Model.py example1.smi`
 
-  - The model can also be carried out by appying the script *Molecular_Framework_Model.ipynb* in the Jupyter Notebook
+  - The model can also be carried out by applying the script *Molecular_Framework_Model.ipynb* in the Jupyter Notebook
 
-The two approaches above will both yield two .pickle files containining the framework for each molecule in the sample pool (you can find these data in folder *example/results_of_each_example*) and the final framework dataset after combining the duplicates and sorting their frequency (you can find these final framework datasets for two examples in folder *results_merging/results/* for further steps of merging, etc.). 
+The two approaches above will both yield two .pickle files containing the framework for each molecule in the sample pool (you can find these data in folder *example/results_of_each_example*) and the final framework dataset after combining the duplicates and sorting their frequency (you can find these final framework datasets for two examples in folder *results_merging/results/* for further steps of merging, etc.). 
 
 A .html file elaborating the final framework results can be also obtained for each approach.
 
 ### Results Merging
 
-For very large databases, we usually have to split the databases or even using high performance computer clusters to treat them parallely. 
+For very large databases, we usually have to split the databases or even using high-performance computer clusters to treat them parallelly. 
 
-Therefore, an efficient script for merging all the results for each sub-databases is necessary. 
+Therefore, an efficient script for merging all the results for each sub-database is necessary. 
 
 In folder *results_merging* you can see the file *Molecular_Framework_Results_Merge.ipynb* which will realize this merging process.
 
-Then all or top 10000 sorted frameworks for the entire database can be displayed in a .html file. 
+Then all or the top 10000 sorted frameworks for the entire database can be displayed in a .html file. 
 
-You can also save the SMILES of frameworks on your own or utlize the *results_merged.pickle* file, and then visualize them with softwares like ChemDraw or Marvin.*top-10000-results-with-ROMol.html* in the same folder shows the framework dataset built from the two combined examples.
+You can also save the SMILES of frameworks on your own or utilize the *results_merged.pickle* file, and then visualize them with software like ChemDraw or Marvin.*top-10000-results-with-ROMol.html* in the same folder shows the framework dataset built from the two combined examples.
 
 ## Contributing
 
