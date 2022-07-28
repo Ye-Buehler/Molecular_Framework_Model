@@ -66,8 +66,6 @@ To contribute with code to the project, follow these steps:
 * [@Ye-Buehler](https://github.com/Ye-Buehler)
 
 The contributors have limited time for support questions, but please do not hesitate to submit an issue (see above).
- 
-## Citation 
 
 ## License
 
