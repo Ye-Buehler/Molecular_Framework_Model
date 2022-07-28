@@ -6,8 +6,8 @@ Thank you for your interest in this repo complementing the "[Molecular Framework
 ### You have installed anaconda or miniconda with python 3.6 - 3.9
 ### Install conda environment
 
-The requirements for the environment are given in the framework.yml file:
-`conda env create -f framework.yml`
+The requirements for the environment are given in the framework.yml file
+<Br/>`conda env create -f framework.yml`
 
 Specific packages used are also listed below:
   - ipykernel >= 6.4.1
@@ -27,7 +27,7 @@ Specific packages used are also listed below:
 
 *example1.smi* and *example2.smi* files in folder *example* are provided for the Molecular Framework Model demonstration.
 
-  - The model can be executed by using the following command and the python script *Molecular_Framework_Model.py*:
+  - The model can be executed by using the following command and the python script *Molecular_Framework_Model.py*
 <Br/>`python Molecular_Framework_Model.py example1.smi`
   - The model can also be carried out by appying the script *Molecular_Framework_Model.ipynb* in the Jupyter Notebook
  
