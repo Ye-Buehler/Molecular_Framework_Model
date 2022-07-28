@@ -46,7 +46,7 @@ In folder *results_merging* you can see the file *Molecular_Framework_Results_Me
 
 Then all or top 10000 sorted frameworks for the entire database can be displayed in a .html file. 
 
-You can also save the SMILES of frameworks on your own or utlize the *results_merged.pickle* file, and then display them with softwares like ChemDraw or Marvin.*top-10000-results-with-ROMol.html* in the same folder shows the framework dataset built from the two combined expamles.
+You can also save the SMILES of frameworks on your own or utlize the *results_merged.pickle* file, and then visualize them with softwares like ChemDraw or Marvin.*top-10000-results-with-ROMol.html* in the same folder shows the framework dataset built from the two combined examples.
 
 ## Contributing
 
