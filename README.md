@@ -32,7 +32,7 @@ Specific packages used are also listed below:
 
   - The model can also be carried out by applying the script *Molecular_Framework_Model.ipynb* in the Jupyter Notebook
 
-The two approaches above will both yield two .pickle files containing the framework for each molecule in the sample pool (you can find these data in folder *example/results_of_each_example*) and the final framework dataset after combining the duplicates and sorting their frequency (you can find these final framework datasets for two examples in folder *results_merging/results/* for further steps of merging, etc.). 
+The two approaches above will both yield two .pickle files containing the framework for each molecule in the sample pool (you can find these data in folder *example/results_of_each_example*) and the final framework dataset after combining the duplicates and sorting their frequency (you can find these final framework datasets for two examples in folder *results_merging/results* for further steps of merging, etc.). 
 
 A .html file elaborating the final framework results can be also obtained for each approach.
 
