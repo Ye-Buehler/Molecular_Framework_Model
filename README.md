@@ -35,29 +35,26 @@ Specific packages used are also listed below:
 
 in folder *example/results_of_each_example*) and the final framework dataset after combining the duplicates and sorting their frequency (you can find
 
-these final framework datasets for two examples in folder *results_merging/results/* for further steps of merging, etc.). A .html file elaborating the 
+these final framework datasets for two examples in folder *results_merging/results/* for further steps of merging, etc.). 
 
-final framework results can be also obtained for each approach.
+A .html file elaborating the final framework results can be also obtained for each approach.
 
 ### Results Merging
 
-For very large databases, we usually have to split the databases or even using high performance computer clusters to treat them parallely. Therefore, an
+For very large databases, we usually have to split the databases or even using high performance computer clusters to treat them parallely. 
 
-efficient script for merging all the results for each sub-databases is necessary. In folder *results_merging* you can see the file down below which will
-
-realize this merging process.
+Therefore, an efficient script for merging all the results for each sub-databases is necessary. In folder *results_merging* you can see the file down below which will realize this merging process.
 
 <Br/>`Molecular_Framework_Results_Merge.ipynb`
 
 <Br/>Then all or top 10000 sorted frameworks for the entire database can be displayed in a .html file. 
 
-<Br/>You can also save the SMILES of frameworks on your own or utlize the *results_merged.pickle* file, and then display them with softwares like 
-
-ChemDraw or Marvin.*top-10000-results-with-ROMol.html* in the same folder shows the framework dataset built from the two combined expamles.
+<Br/>You can also save the SMILES of frameworks on your own or utlize the *results_merged.pickle* file, and then display them with softwares like ChemDraw or Marvin.*top-10000-results-with-ROMol.html* in the same folder shows the framework dataset built from the two combined expamles.
 
 ## Contributing
 
 We welcome contributions, in the form of issues or pull requests.
+
 If you have a question or want to report a bug, please submit an issue.
 
 To contribute with code to the project, follow these steps:
@@ -74,6 +71,7 @@ To contribute with code to the project, follow these steps:
 The contributors have limited time for support questions, but please do not hesitate to submit an issue (see above).
  
 ## Citation 
+
 ## License
 
 The software is licensed under the MIT license (see LICENSE file), and is free and provided as-is.
