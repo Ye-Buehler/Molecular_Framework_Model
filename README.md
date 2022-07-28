@@ -17,14 +17,19 @@ Specific packages used are also listed below:
   - rdkit >= 2021.09.4
   - tqdm >= 4.63.0
   
-### Conda environment activation:
+### Conda environment activation
  `conda activate env-framework`
  
  
-## Usage
+## Quickstart
 
 ### Example
+*example1.smi* and *example2.smi* files in folder *example* are provided for the Molecular Framework Model demonstration.
+The model can be executed by using the following command and the python script *Molecular_Framework_Model.py*:
+`python Molecular_Framework_Model.py example1.smi`
 
+
+Molecular_Framework_Model.ipynb
 ### Results Merging
  
 ## Contributing
@@ -49,7 +54,7 @@ To contribute with code to the project, follow these steps:
 
 The contributors have limited time for support questions, but please do not hesitate to submit an issue (see above).
  
- 
+## Citation 
 ## License
 
 The software is licensed under the MIT license (see LICENSE file), and is free and provided as-is.
