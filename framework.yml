@@ -7,6 +7,6 @@ dependencies:
   - numpy>=1.21.2
   - pandas>=1.4.1
   - pickleshare>=0.7.5
-  - python>=3.9.7
+  - python>=3.6,<3.10
   - rdkit>=2021.09.4
   - tqdm>=4.63.0
