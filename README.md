@@ -1,6 +1,6 @@
 # Molecular Framework Model
 
-Thank you for your interest in this repo complementing the "[Molecular Framework Analysis of the Drug-like Chemical Space](https:)" publication.
+Thank you for your interest in this repo complementing the "[Molecular Framework Analysis of the Generated Database GDB-13s](https:)" publication.
 
 ## Requirements
 ### You have installed anaconda or miniconda with python 3.6 - 3.9
