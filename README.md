@@ -1,6 +1,8 @@
 # Molecular Framework Model
 
-Thank you for your interest in this repo complementing the "[Molecular Framework Analysis of the Generated Database GDB-13s](https:)" publication.
+Thank you for your interest in this repo complementing the "[Molecular Framework Analysis of the Generated Database GDB-13s](https://pubs.acs.org/doi/10.1021/acs.jcim.2c01107)" publication.
+
+![image](https://user-images.githubusercontent.com/93389795/209134696-ed2178cb-4975-47a2-9e8e-7120e1a510a1.png)
 
 ## Requirements
 ### You have installed anaconda or miniconda with python 3.6 - 3.9
