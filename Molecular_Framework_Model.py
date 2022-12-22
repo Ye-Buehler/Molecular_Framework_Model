@@ -16,9 +16,9 @@ import pickle
 import numpy as np
 
 #RDKit:
+from rdkit import Chem
 from rdkit.Chem import AllChem
 from rdkit.Chem import rdchem
-from rdkit import Chem
 from rdkit.Chem.rdmolops import *
 from rdkit.Chem import PandasTools
 from rdkit.Chem.Draw import MolsToGridImage
