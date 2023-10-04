@@ -37,7 +37,7 @@ df_input = pd.read_csv(scr_path,  sep = ' ', header = None, names = ['SMILES'])
 
 
 
-# #### (3) Clean the Raw Database:
+# Clean the Raw Database:
 
 
 # Remove the duplicates in the original dataset:
