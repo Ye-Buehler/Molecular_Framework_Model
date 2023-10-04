@@ -37,9 +37,7 @@ df_input = pd.read_csv(scr_path,  sep = ' ', header = None, names = ['SMILES'])
 
 
 
-# Clean the Raw Database:
-
-
+# Clean the Raw Database
 # Remove the duplicates in the original dataset:
 df_input.drop_duplicates(subset = "SMILES", keep = 'last', inplace = True)
 df_input = df_input.reset_index(drop = True)
